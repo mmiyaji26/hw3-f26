@@ -1,5 +1,5 @@
 /*Your Code Here*/
-a:hover {
+a:hover, a:focus {
      border: 2px dotted purple;
 }
 
@@ -10,10 +10,7 @@ a:hover {
 
 .skip a:focus {
   top: 25px;
-}
-
-a:focus{
-     border: 5px dotted green;
+  border: 2px dotted green;
 }
 
 .container {
@@ -67,6 +64,7 @@ a:focus{
      text-align: left;
 }
 
+/* Desktop layout */
 @media (min-width: 825px) {
 
      nav {
